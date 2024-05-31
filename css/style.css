@@ -1,0 +1,113 @@
+body{
+    background-color: #35488c;
+}
+.container{
+    margin: auto;
+    margin-top: 14px;
+}
+.dflex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.leftcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.leftcontainer h2{
+    width: 70%;
+    font-size: 25px;
+    text-align: center;
+    color: #35488c;
+    border: 2px solid #fff;
+    background-color: #ffffff;
+    font-weight: bold;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 83px;
+}
+.container .imgbox{
+    background-color: #e9e9e9;
+    width: 70%;
+    border-radius: 15px;
+}
+.leftcontainer img{
+    width: 91%;
+    margin: 19px;
+}
+.rightcontainer{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-right: 45px;
+    margin-left: 10px;
+    border-radius: 37px;
+}
+.rightcontainer .ddflex{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.rightcontainer .content{
+    width: 74%;
+    margin-left: 53px;
+}
+.rightcontainer .content2{
+    width: 86%;
+    margin-left: 28px;
+}
+.rightcontainer .yourdate{
+    background-color: #35488c;
+    border: 2px solid #35488c;
+    border-radius: 28px;
+    width: 77%;
+    padding: 5px;
+    margin-top: 33px;
+}
+.rightcontainer .yourdate p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    padding-right: 10px;
+}
+.rightcontainer .info{
+    width: 80%;
+    margin: auto;
+    margin-top: 57px;
+}
+.rightcontainer .info input{
+    background-color: #e9e9e9;
+    font-size: 20px;
+    color: #000000;
+    height: 66px;
+    border: 3px solid #e9e9e9;
+    width: 65%;
+    border-radius: 13px;
+    text-align: center;
+    margin-left: 15px;
+}
+.rightcontainer .info p{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+.rightcontainer .ddflex .info2{
+    background-color: #e9e9e9;
+    padding: 18px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    width: 83%;
+}
+.rightcontainer .ddflex .describe{
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    margin-left: 27px;
+}
